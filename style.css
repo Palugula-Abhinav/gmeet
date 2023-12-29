@@ -81,7 +81,8 @@ header {
 #apps {
   position: relative;
   top: 6px;
-  margin-left: 1.9rem;
+  margin-left: 1rem;
+  margin-right: 0.9rem;
 }
 
 main {
