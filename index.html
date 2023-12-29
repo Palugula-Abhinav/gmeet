@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Meet</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img
+          src="https://www.gstatic.com/meet/google_meet_horizontal_wordmark_2020q4_1x_icon_124_40_2373e79660dabbf194273d27aa7ee1f5.png"
+          alt=""
+        />
+        <p>Meet</p>
+      </div>
+      <div class="right">
+        <div>
+          <div class="calender">
+            <div id="time"></div>
+            <div class="middot" style="font-size: 1.125rem">&nbsp;•&nbsp;</div>
+            <div id="date"></div>
+          </div>
+          <div class="buttons">
+            <button id="help">
+              <span class="material-symbols-outlined"> help </span>
+            </button>
+            <button id="chat-info">
+              <span class="material-symbols-outlined"> chat_info </span>
+            </button>
+            <button id="settings">
+              <span class="material-symbols-outlined"> settings </span>
+            </button>
+          </div>
+        </div>
+        <button id="apps">
+          <span class="material-symbols-outlined"> apps </span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="left">
+        <div class="left-in">
+          <div
+            style="
+              display: inline-flex;
+              flex-direction: column;
+              border-bottom: 0.5px solid #dadce0;
+            "
+          >
+            <p class="Main-heading">
+              Premium video meetings. <br />
+              Now free for everyone.
+            </p>
+            <p class="subtitle">
+              We re-engineered the service we built for secure business
+              meetings, Google Meet, to make it free and available for all
+            </p>
+            <div class="join-func">
+              <button id="create">
+                <span class="material-symbols-outlined"> video_call </span>
+                New meeting
+              </button>
+              <div class="code-input">
+                <label for="code-input" id="code-input-lable"
+                  ><span class="material-symbols-outlined" id="keyboard-icon">
+                    keyboard
+                  </span></label
+                >
+                <input
+                  type="text"
+                  id="code-input"
+                  placeholder="Enter a code or link"
+                />
+              </div>
+              <button id="join-btn" class="join-btn" disabled>Join</button>
+            </div>
+          </div>
+          <p id="learn-more-G">
+            <a
+              href="https://meet.google.com/about/redirect/landing-learn-more/?hl=en"
+              >Learn more</a
+            >
+            about Google Meet
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <img
+          src="https://www.gstatic.com/meet/user_edu_get_a_link_light_90698cd7b4ca04d3005c962a3756c42d.svg"
+          alt=""
+          id="image-section"
+        />
+        <p id="top-text">Get a link you can share</p>
+        <p id="bottom-text">
+          Click <span style="font-weight: 400">New meeting</span> to get a link
+          you can send to people you want to meet with
+        </p>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

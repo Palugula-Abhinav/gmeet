@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500&family=Open+Sans&family=Roboto:wght@300;500&display=swap");
+
+html,
+body {
+  min-height: 100svh;
+  margin: 0;
+  box-sizing: border-box;
+  width: 99vw;
+}
+
+header {
+  box-sizing: border-box;
+  padding: 0.5rem;
+
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #fff;
+}
+
+#logo {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 12px;
+  flex-direction: row;
+}
+
+#logo img {
+  width: 124px;
+  height: 40px;
+}
+
+#logo > p {
+  color: #5f6368;
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding-left: 4px;
+}
+.right > div {
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+}
+#time,
+#date {
+  color: rgb(95, 99, 104);
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
+  font-size: 1.125rem;
+}
+
+.calender {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.125rem;
+  color: rgb(95, 99, 104);
+}
+
+.buttons {
+  position: relative;
+  top: 2px;
+}
+
+.buttons > button,
+#apps {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 12px 12px 8px 12px;
+  color: rgb(95, 99, 104);
+}
+
+.buttons > button:hover,
+#apps:hover {
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+#apps {
+  position: relative;
+  top: 6px;
+  margin-left: 1.9rem;
+}
+
+main {
+  display: flex;
+}
+
+main > .left > .left-in {
+  padding: 1rem 3rem;
+}
+
+.Main-heading {
+  font-size: 2.75rem;
+  font-weight: 200px;
+  font-family: "Noto Sans Display";
+  padding-bottom: 0.5rem;
+  margin: 0;
+  width: 22ch;
+}
+
+main .left .left-in .subtitle {
+  font-size: 1.125rem;
+  font-family: "Noto Sans Display";
+  color: #5f6368;
+  font-family: 400;
+  max-width: 30rem;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+main .left button#create {
+  background-color: rgba(26, 115, 232, 0.962);
+  color: #ffff;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+main .left button#create:hover {
+  background-color: rgb(26, 115, 232);
+}
+
+main .left div.code-input {
+  display: inline-block;
+  border: 1px solid #80868b;
+  display: inline-flex;
+  align-content: center;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 0.2rem;
+}
+
+.join-func {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 23px;
+  padding-bottom: 2rem;
+}
+
+#keyboard-icon {
+  font-size: 1.3rem;
+  position: relative;
+  top: 1px;
+  color: #5f6368;
+}
+
+#code-input {
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+#code-input::placeholder {
+  font-size: 1rem;
+}
+
+.join-btn:enabled {
+  background-color: transparent;
+  border: none;
+  color: rgb(26, 115, 232);
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Roboto";
+  padding: 1rem 0.7rem;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  background-color: #f6fafe;
+  transition: 250ms background-color;
+  border-radius: 0.2rem;
+}
+
+.join-btn:disabled {
+  background-color: transparent;
+  border: none;
+  color: #b5b6b7;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Roboto";
+  padding: 1rem 0.7rem;
+}
+
+main > .left hr {
+  width: 24ch;
+}
+
+#learn-more-G {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #5f6368;
+}
+
+#learn-more-G > a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+#learn-more-G > a:hover {
+  text-decoration: underline;
+}
+
+#image-section {
+  width: 412px;
+  height: 412px;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  max-width: 100vw;
+  align-items: center;
+  padding: 130px 0;
+}
+
+main > .right {
+  padding: 30px 130px;
+}
+
+main > .right #top-text {
+  margin: 0;
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+  font-family: "Noto Sans Display";
+  text-align: center;
+  font-weight: 300;
+}
+
+#bottom-text {
+  width: 50ch;
+  text-align: center;
+  font-size: 0.875rem;
+  font-family: roboto;
+  font-weight: 300;
+}
