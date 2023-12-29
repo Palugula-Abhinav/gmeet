@@ -224,6 +224,9 @@ main {
 
 main > .right {
   padding: 30px 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main > .right #top-text {
@@ -254,6 +257,11 @@ main > .right #top-text {
     flex-direction: column;
   }
 
+  .Main-heading,
+  .subtitle {
+    text-align: center;
+  }
+
   .join-func {
     flex-direction: row;
   }
@@ -262,5 +270,42 @@ main > .right #top-text {
 @media (max-width: 750px) {
   #apps {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 702px) {
+  #logo {
+    display: none;
+  }
+  header {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 761px) {
+  main .left-in {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  main .right {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  main {
+    align-items: center;
+  }
+}
+
+@media (max-width: 674px) {
+  .join-func {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 482px) {
+  .buttons > button {
+    padding: 12px 8px 8px 8px;
   }
 }
