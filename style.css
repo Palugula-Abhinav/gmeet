@@ -309,3 +309,9 @@ main > .right #top-text {
     padding: 12px 8px 8px 8px;
   }
 }
+
+@media (max-width: 477px) {
+  #apps {
+    display: none;
+  }
+}
