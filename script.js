@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }:${d.getMinutes()} AM`;
       }
     }
-  }, 60000);
+  }, 30000);
 
   let day;
 

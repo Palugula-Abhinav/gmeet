@@ -98,7 +98,7 @@ main > .left > .left-in {
   font-family: "Noto Sans Display";
   padding-bottom: 0.5rem;
   margin: 0;
-  width: 22ch;
+  max-width: 22ch;
 }
 
 main .left .left-in .subtitle {
@@ -240,4 +240,26 @@ main > .right #top-text {
   font-size: 0.875rem;
   font-family: roboto;
   font-weight: 300;
+}
+
+@media (max-width: 1435px) {
+  .join-func {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1161px) {
+  main {
+    flex-direction: column;
+  }
+
+  .join-func {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 750px) {
+  #apps {
+    margin-left: 0;
+  }
 }
